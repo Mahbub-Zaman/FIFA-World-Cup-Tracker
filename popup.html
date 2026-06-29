@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>FIFA Tracker</title>
+  <link rel="stylesheet" href="popup.css"/>
+</head>
+<body>
+<div class="app">
+
+  <div class="header">
+    <div class="header-left">
+      <span class="logo">⚽</span>
+      <span class="title">FIFA TRACKER</span>
+    </div>
+    <button class="refresh-btn" id="refreshBtn" title="Refresh">↻</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="live">🔴 Live</button>
+    <button class="tab" data-tab="upcoming">📅 Upcoming</button>
+    <button class="tab" data-tab="results">✅ Results</button>
+  </div>
+
+  <div class="content">
+    <div class="tab-pane active" id="tab-live"></div>
+    <div class="tab-pane" id="tab-upcoming"></div>
+    <div class="tab-pane" id="tab-results"></div>
+  </div>
+
+  <div class="footer">
+    <span id="footerText">Loading…</span>
+  </div>
+
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

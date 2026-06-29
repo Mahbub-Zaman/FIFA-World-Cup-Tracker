@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "FIFA Match Tracker",
+  "version": "1.0.0",
+  "description": "Live FIFA & international football scores, fixtures and results — no API key needed.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "host_permissions": [
+    "https://site.api.espn.com/*",
+    "https://sports.core.api.espn.com/*",
+    "https://site.web.api.espn.com/*"
+  ],
+  "permissions": []
+}
