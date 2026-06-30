@@ -46,7 +46,7 @@ Whether a match is live, about to start, or already finished, FIFA Tracker provi
 1. Download or clone this repository.
 
 ```bash
-git clone https://github.com/your-username/fifa-tracker.git
+git clone https://github.com/Mahbub-Zaman/FIFA-World-Cup-Tracker
 ```
 
 2. Open **Google Chrome**.
