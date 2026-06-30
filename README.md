@@ -83,7 +83,6 @@ FIFA-Tracker/
 └── README.md
 ```
 
-*(Update the structure if your project differs.)*
 
 ---
 
